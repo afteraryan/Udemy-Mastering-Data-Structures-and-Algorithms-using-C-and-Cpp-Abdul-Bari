@@ -1,15 +1,25 @@
 #include<stdio.h>
-void fun( int n)
+void funheadrecursion( int n)
 {
     if ( n>0 )
     {
         printf("%d ",n);
-        fun( n-1);
+        funheadrecursion( n-1);
+    }
+}
+void funtailrecursion( int n)
+{
+    if ( n>0 )
+    {
+        funtailrecursion( n-1);
+        printf("%d ",n);
+        
     }
 }
 int main()
 {
     int x = 3;
-    fun(x);
+    funheadrecursion(x);
+    funtailrecursion(x);
     return 0;
 }
