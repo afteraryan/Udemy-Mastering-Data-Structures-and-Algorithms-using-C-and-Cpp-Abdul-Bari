@@ -50,6 +50,8 @@ void main()
 
 }
 
+
+
 //Result and working of fun2() and fun3() are same.
 //When fun3() is called 2nd time, value of y = 5 so the result changes.
 //When fun2() is called 2nd time, value of x = 5 since it is a local BUT Static variable...
