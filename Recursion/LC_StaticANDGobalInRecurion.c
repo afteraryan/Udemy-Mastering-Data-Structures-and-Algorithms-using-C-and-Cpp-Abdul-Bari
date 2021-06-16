@@ -50,7 +50,8 @@ void main()
 
 }
 
-
+fsfsdfsfews
+hdrhd
 
 //Result and working of fun2() and fun3() are same.
 //When fun3() is called 2nd time, value of y = 5 so the result changes.
@@ -59,3 +60,4 @@ void main()
 
 //Result remains same in fun1() is case of multiple calls, because everything is happening...
 //...in Local and Normal (NON-Static) (Static hota tab bhi same hi result aata) variables.
+
